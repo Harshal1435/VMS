@@ -1,0 +1,13 @@
+# YOLOv8 training configuration for license plate detection
+
+path: ../datasets/plates  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test  # test images (optional)
+
+# Classes
+names:
+  0: license_plate
+
+# Number of classes
+nc: 1
